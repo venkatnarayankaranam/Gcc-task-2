@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bc2bf89d10.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, It's Me <br><span>Venkatnarayan</span></h1>
+            <p>And I'm a <span class="highlight">Frontend Designer</span></p>
+            <p>Hi, I'm Venkatnarayan, a passionate front-end developer with a keen eye for detail and a drive to create engaging, user-friendly web experiences. With a solid foundation in HTML, CSS, and JavaScript, I specialize in building responsive and dynamic websites that not only look great but also provide an intuitive user experience.</p>
+            <div class="social-links">
+                <a href="https://facebook.com"><img src="./Components/facebook.png" alt="Facebook"></a>
+                <a href="https://x.com/venkatnarayan_c"><img src="./Components/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/itsvenkat___05/"><img src="./Components/instagram (1).png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/venkatnarayan-karanam-868417276/"><img src="./Components/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://youtube.com"><img src="./Components/youtube.png" alt="YouTube"></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <div class="hero-image">
+            <img src="./Components/1000015481-removebg-preview (1).png" alt="Venkatnarayan">
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="./Components/1000015481-removebg-preview (1).png" alt="Venkatnarayan">
+        </div>
+        <div class="about-text">
+            <h2>About <span class="highlight">Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hi, I'm Venkatnarayan, a passionate front-end developer with a keen eye for detail and a drive to create engaging, user-friendly web experiences. With a solid foundation in HTML, CSS, and JavaScript, I specialize in building responsive and dynamic websites that not only look great but also provide an intuitive user experience.</p>
+            <p>I have experience working with various modern frameworks and libraries such as React, Vue.js, and Angular, which allows me to develop complex web applications efficiently. My development journey is fueled by a love for continuous learning and staying updated with the latest industry trends. I am proficient in using tools like Git, Webpack, and various CSS preprocessors to streamline the development process.</p>            <a href="#" class="btn">See more</a>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Our <span class="highlight">Services</span></h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>UI/UX Designer</h3>
+                <p>A UI/UX designer focuses on creating user-friendly interfaces and improving overall user experiences.</p>
+                <a href="https://flatironschool.com/blog/what-is-ux-ui-design/" class="btn">See More</a>
+            </div>
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Web development involves building and maintaining websites or web applications.</p>
+                <a href="https://www.geeksforgeeks.org/web-development/" class="btn">See More</a>
+            </div>
+            <div class="service-card">
+                <h3>Marketing</h3>
+                <p>Marketing is the strategic process of promoting and selling products or services to target audiences.</p>
+                <a href="https://study.com/academy/lesson/what-is-a-marketing-information-system-definition-benefits-example.html#:~:text=A%20marketing%20information%20system%20(MkIS,their%20marketing%20strategies%20and%20campaigns." class="btn">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact <span class="highlight">Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Feel free to get in touch with me for any inquiries or collaborations. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</h3>
+                <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+    </section>
+</body>
+</html>

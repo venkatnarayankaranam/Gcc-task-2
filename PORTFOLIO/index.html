@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc2bf89d10.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-text"></div>
+            <p>Tech lead Team lead</p>
+            <h1>Hi, I'm <span>venkatnarayan</span> <br>from KIET group of institutions</h1>
+    </div>
+</div>
+<!----------------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/my blazzer.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> HELLO GUYS I AM VENKATNARAYAN CURRENTLY PURSUING B-TECH 2ND YEAR IN KIET GROUP OF INSTITUTIONS. I AM 
+                    HAVING INTEREST IN PLAYING CRICKET AND I AM ALO HAVING INTEREST TO DO CODING WHEN EVER ITS FREE TIME, COMING TO 
+                    MY HOBIES SO I WOULD LIKE TO SING SONGS AND I WOULD LIKE TO WRITE LYRICS, I WOULD LOV TO READ BOOKS.MY DREAM IS TO 
+                    DEVELOP A COMPANY CALLED KV GROUPS.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Education">
+                    <ul>
+                        <li><span>2022</span><br>Studying at KIET Group of Institutions</li>
+                        <li><span>2022</span><br>Studied at Sri Chaitanya junior college,guntur</li>
+                        <li><span>2020</span><br>Studied at Good Shepherd Academy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------programming skills------------------>
+<div id="Skills">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="skills_list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Basics of Python</h2>
+                <p>
+                    I have learnt basics of python and i am researching on it.
+                </p>
+                <a href="#">know more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Basics of HTML</h2>
+                <p>
+                    I have learnt basics of HTML and i can design an web page.
+                </p>
+                <a href="#">know more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-css3-alt"></i>
+                <h2>Basics of CSS</h2>
+                <p>
+                    I have learnt basics of CSS and i can give designs inside the webpage.
+                </p>
+                <a href="#">know more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Non Technical Skills</h1>
+        <div class="Non_technical_Skills">
+            <div class="Non_technical_Skills">
+                <img src="images/toastmaster.jpg">
+                <div class="layer">
+                    <h3>ToastMaster</h3>
+                    <p>I am an toastmaster,this platform helpss us to grow our communication skills and leadership skills also</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="Non_technical_Skills">
+                <img src="images/leadership.jpg">
+                <div class="layer">
+                    <h3>Leadership Development</h3>
+                    <p>I am good at leadership development and i can handle a team also</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">know more</a>
+    </div>
+</div>
+<!---------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>venkatnarayanchowdary95@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7498873464</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/itsvenkat___05?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://linkedin.com/in/venkatnarayan-karanam-868417276"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/venkatnarayankaranam/IIIT-FMML-ASSIGNMENT.git"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="phone no" name="contact no" placeholder="Your contact no" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <msg id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © venkatnarayan. Made this portofolio <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<!-----------------------------java script------------------------------------>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz2LmRo8wfIrs-fz7X1UNuFp0sQtiGSHDg8WWOYaVCcWVEBy4aOaDiuGbK_bsuw1mwhyA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
